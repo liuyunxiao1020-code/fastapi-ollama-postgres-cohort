@@ -8,7 +8,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
-OLLAMA_MODEL = "llama3.2"
+OLLAMA_MODEL = "llama3.2:1b"
 SYSTEM_PROMPT = (
     "You are a concise, helpful assistant. "
     "Answer in one short paragraph (under 80 words). "

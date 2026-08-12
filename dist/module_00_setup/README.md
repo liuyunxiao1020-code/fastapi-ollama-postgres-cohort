@@ -20,7 +20,7 @@ From this folder, in a terminal inside Antigravity:
 
 ```bash
 # Windows: run all of these inside your Ubuntu (WSL2) terminal — same commands as macOS / Linux.
-python3.11 -m venv venv
+python3.13 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt   # empty in Module 0; teaches the muscle
 createdb llm_question_log
